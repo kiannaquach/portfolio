@@ -1,0 +1,227 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
+}
+
+canvas {
+  display:block;
+  position: fixed;
+  z-index: -1;
+}
+
+.intro {
+  font-size: 45pt;
+  font-weight:300;
+  font-family: 'Lato', sans-serif;
+  color: black;
+  text-align: center;
+}
+
+
+.inner {
+  font-size: 30pt;
+  width: 100%;
+  flex: auto;
+}
+
+.landing-page {
+  min-height: 100vh;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+
+#kianna:hover span {
+  display:none;
+  cursor: pointer;
+}
+#kianna:hover:before {
+  content: 'Kianna👩🏻‍💻';
+  font-size: 50pt;
+  cursor: pointer;
+}
+
+.about {
+  font-size: 12pt;
+  font-weight: 300;
+  text-align: center;
+  min-height: 100vh;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio {
+  min-height: 100vh;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  font-size: 12pt;
+  font-weight: 300;
+  text-align: center;
+}
+
+.resume {
+  min-height: 100vh;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  font-size: 30pt;
+  font-weight: 300;
+  text-align: center;
+}
+
+.skills {
+  font-size: 18pt;
+  font-weight: 300;
+  text-align: left;
+}
+
+
+.top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+  text-align: center;
+  margin: 20px;
+  font-family: lato;
+  font-weight: 300;
+}
+
+.icons {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.custom-classname.react-toggle--checked .react-toggle-track {
+  background-color: cornflowerblue;
+  
+}
+
+.custom-classname.react-toggle--unchecked .react-toggle-track {
+  background-color: grey;
+  /* color: white; */
+}
+
+.cursor {
+  cursor: pointer;
+  /* font-family: 'Lato', sans-serif; */
+}
+
+
+.animated {
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes bounce {
+  0%, 100% {
+    -webkit-transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-5px);
+  }
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+.bounce {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+}
+
+.bounce:hover {
+  color: rgb(44, 105, 219);
+}
+
+.top:hover {
+  color: rgb(44, 105, 219);
+}
+
+hr {
+  position: relative;
+  top: 92px;
+  left: -300px;
+  width: 200px;
+}
+
+
+.intro-websites:hover {
+  animation: bounce 1.5s infinite; 
+  -webkit-animation: bounce 1.5s infinite; 
+  -moz-animation: bounce 1.5s infinite;
+  -o-animation: bounce 1.5s infinite;
+}
+
+@-webkit-keyframes bounce {
+  0%,  
+  100% {
+     -webkit-transform: translateY(0);
+  } 
+  50% {
+      -webkit-transform: translateY(-10px);
+  }
+}
+@-moz-keyframes bounce {
+  0%, 
+  100% {
+     -moz-transform: translateY(0);
+  }
+  50% {
+     -moz-transform: translateY(-10px);
+  }
+}
+@-o-keyframes bounce {
+  0%,
+  100% {
+     -o-transform: translateY(0);
+  }
+  50% {
+     -o-transform: translateY(-10px);
+  }
+}
+@keyframes bounce {
+  0%,  
+  100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-10px);
+  }
+}
