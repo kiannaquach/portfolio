@@ -147,7 +147,7 @@ class App extends Component {
                     <GoogleDocsViewer
                       width="700px" 
                       height="600px" 
-                      fileUrl="/file/d/1LGhlfuy4rjkHVjgndZkdDWXKwouTxhfD/edit"
+                      fileUrl="https://s3-us-west-1.amazonaws.com/kianna-portfolio/QuachKianna.pdf"
                     />
                   }
             </div>
@@ -161,14 +161,14 @@ class App extends Component {
 
               <div className="animated bounce top" style={{textAlign: 'center', color: `${this.state.fontColor}` }}>
                 <div style={{fontSize: '20pt'}}>top</div>
-                <i class="far fa-hand-point-up fa-3x"
+                <i class="far fa-hand-point-up fa-3x cursor"
                   onClick={() => scrollToComponent(this.Top, { offset: 0, align: 'bottom', duration: 450, ease:'inExpo'})}
                 />
               </div>       
           </div>
           <div className="navbar navbar-fixed-bottom footer" style={{textAlign: 'right', color: `${this.state.fontColor}`}}>
               <div style={{fontFamily: 'lato', fontSize: '15pt'}}>
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/kiannaquach" className="icons">Kianna🐥</a>
+                <a target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none'}} href="https://github.com/kiannaquach" className="icons">Kianna🐥</a>
               </div>
           </div>   
         </div>

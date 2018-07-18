@@ -27,7 +27,7 @@ function THKQ(props) {
       <Card className={classes.card}>
         <CardMedia
           className={classes.media}
-          image="/images/thkq.gif"
+          image="https://s3-us-west-1.amazonaws.com/kianna-portfolio/thkq.gif"
           title="thkq"
         />
         <CardContent>

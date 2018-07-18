@@ -27,7 +27,7 @@ function Lululemonades(props) {
       <Card className={classes.card}>
         <CardMedia
           className={classes.media}
-          image="/images/lululemonade.JPEG"
+          image="https://s3-us-west-1.amazonaws.com/kianna-portfolio/lululemonade.JPEG"
           title="Lululemonades"
         />
         <CardContent>
