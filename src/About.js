@@ -9,7 +9,7 @@ class About extends Component {
             <img src="https://s3-us-west-1.amazonaws.com/kianna-portfolio/kianna2.jpg" className="rounded-circle" width="240" height="240" alt="profile" /> 
           </div>
           <br />
-          <div style={{fontSize: '20pt', textAlign: 'left'}}>
+          <div style={{fontSize: '16pt', textAlign: 'left'}}>
             <div>
             I am a <span style={{color: 'rgb(48, 110, 227)', fontWeight: 400}}>Fullstack Engineer</span> looking for new opportunities. 
             I am skilled in <span style={{color: 'rgb(48, 110, 227)', fontWeight: 400}}>Javascript</span>, Postgres, Mongo, <span style={{color: 'rgb(48, 110, 227)', fontWeight: 400}}>React</span>, Node.js/Express and much more. 
