@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Zoom from 'react-reveal/Zoom';
 import scrollToComponent from 'react-scroll-to-component';
 import "react-toggle/style.css";
 import Toggle from 'react-toggle';
@@ -85,7 +86,8 @@ class App extends Component {
 
           <div className="container">
 
-            <div className="landing-page">
+            <div className="intro-page">
+            <Zoom>
             <div className="intro" ref={(section) => { this.Top = section; }} style={{color: `${this.state.fontColor}`}}>
               <div className="inner">
         
@@ -98,6 +100,7 @@ class App extends Component {
                 </div>
               </div>
             </div>
+            </Zoom>
             </div>
 
             <div className="about" ref={(section) => { this.About = section; }} style={{backgroundColor: `${this.state.color}`, color: `${this.state.fontColor}`}}>
@@ -163,8 +166,10 @@ class App extends Component {
                 />
               </div>       
           </div>
-          <div class="navbar navbar-fixed-bottom">
-              Kianna👩🏻‍💻
+          <div className="navbar navbar-fixed-bottom footer" style={{textAlign: 'right', color: `${this.state.fontColor}`}}>
+              <div style={{fontFamily: 'lato', fontSize: '15pt'}}>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/kiannaquach" className="icons">Kianna🐥</a>
+              </div>
           </div>   
         </div>
       </div>

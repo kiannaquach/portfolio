@@ -5,28 +5,17 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+/****** PARTICLES.JS BACKGROUND ******/
+
 canvas {
-  display:block;
+  display: block;
   position: fixed;
   z-index: -1;
 }
 
-.intro {
-  font-size: 45pt;
-  font-weight:300;
-  font-family: 'Lato', sans-serif;
-  color: black;
-  text-align: center;
-}
+/*********** INTRO SECTION **********/
 
-
-.inner {
-  font-size: 30pt;
-  width: 100%;
-  flex: auto;
-}
-
-.landing-page {
+.intro-page {
   min-height: 100vh;
   -ms-flex: 0 1 auto;
   flex: 0 1 auto;
@@ -38,15 +27,40 @@ canvas {
   justify-content: center;
 }
 
+.intro {
+  font-size: 45pt;
+  font-weight:300;
+  font-family: 'Lato', sans-serif;
+  color: black;
+  text-align: center;
+}
+
+.inner {
+  font-size: 30pt;
+  width: 100%;
+  flex: auto;
+}
+
+
+/*********** HI, I'M KIANNA SPAN **********/
+
+#kianna {
+  color: rgb(48, 110, 227);
+}
+
 #kianna:hover span {
   display:none;
   cursor: pointer;
 }
 #kianna:hover:before {
   content: 'Kianna👩🏻‍💻';
+  color: rgb(48, 110, 227);
   font-size: 50pt;
   cursor: pointer;
 }
+
+
+/******************* ABOUT ******************/
 
 .about {
   font-size: 12pt;
@@ -63,6 +77,9 @@ canvas {
   justify-content: center;
 }
 
+
+/*********** PORTFOLIO**********/
+
 .portfolio {
   min-height: 100vh;
   -ms-flex: 0 1 auto;
@@ -78,6 +95,9 @@ canvas {
   font-weight: 300;
   text-align: center;
 }
+
+
+/*********** TECHNICAL SKILL **********/
 
 .resume {
   min-height: 100vh;
@@ -101,6 +121,8 @@ canvas {
 }
 
 
+/*********** UP / TOP ICON TO BRING TO TOP OF PAGE **********/
+
 .top {
   position: fixed;
   bottom: 0;
@@ -119,6 +141,9 @@ canvas {
   animation-fill-mode: both;
 }
 
+
+/*********** NAV BAR - NIGHT / DARK MODE **********/
+
 .custom-classname.react-toggle--checked .react-toggle-track {
   background-color: cornflowerblue;
   
@@ -129,11 +154,12 @@ canvas {
   /* color: white; */
 }
 
+/*********** CURSOR **********/
 .cursor {
   cursor: pointer;
-  /* font-family: 'Lato', sans-serif; */
 }
 
+/*********** BOUNCE CLICK ME ARROWS **********/
 
 .animated {
   -webkit-animation-duration: .5s;
@@ -145,6 +171,7 @@ canvas {
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
 }
+
 @-webkit-keyframes bounce {
   0%, 100% {
     -webkit-transform: translateY(0);
@@ -161,17 +188,18 @@ canvas {
     transform: translateY(-5px);
   }
 }
+
 .bounce {
   -webkit-animation-name: bounce;
   animation-name: bounce;
 }
 
 .bounce:hover {
-  color: rgb(44, 105, 219);
+  color: rgb(48, 110, 227);
 }
 
 .top:hover {
-  color: rgb(44, 105, 219);
+  color: rgb(48, 110, 227);
 }
 
 hr {
@@ -182,12 +210,15 @@ hr {
 }
 
 
-.intro-websites:hover {
+.intro-bounce-icons:hover {
   animation: bounce 1.5s infinite; 
   -webkit-animation: bounce 1.5s infinite; 
   -moz-animation: bounce 1.5s infinite;
   -o-animation: bounce 1.5s infinite;
 }
+
+
+/*********** BOUNCE KEYFRAMES ACROSS BROWSERS **********/
 
 @-webkit-keyframes bounce {
   0%,  
@@ -198,6 +229,7 @@ hr {
       -webkit-transform: translateY(-10px);
   }
 }
+
 @-moz-keyframes bounce {
   0%, 
   100% {
@@ -207,6 +239,7 @@ hr {
      -moz-transform: translateY(-10px);
   }
 }
+
 @-o-keyframes bounce {
   0%,
   100% {
@@ -216,6 +249,7 @@ hr {
      -o-transform: translateY(-10px);
   }
 }
+
 @keyframes bounce {
   0%,  
   100% {

@@ -27,7 +27,7 @@ function AirJordans(props) {
       <Card className={classes.card}>
         <CardMedia
           className={classes.media}
-          image="airjordans.png"
+          image="images/airjordans.png"
           title="AirJordans"
         />
         <CardContent>
