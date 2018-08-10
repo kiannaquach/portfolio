@@ -9,12 +9,12 @@ import Typography from '@material-ui/core/Typography';
 
 const styles = {
   card: {
-    maxWidth: 360,
-    height: 500,
+    maxWidth: 330,
+    height: 400,
     padding: 0,
   },
   media: {
-    height: 260,
+    height: 180,
     paddingTop: '56.25%', // 16:9
     paddingBottom: 0
   },
@@ -34,11 +34,11 @@ function AirJordans(props) {
           <Typography gutterBottom variant="headline" component="h2">
             AirJordans
           </Typography>
-          <Typography component="p" style={{textAlign: 'left'}}>
+          <Typography component="p" style={{fontSize: '9pt', textAlign: 'left'}}>
           System design of reviews microservice for short-term lodging listing page.
           <br/>          
           <br/>          
-          <div style={{fontSize: '11px', color: 'black', textAlign: 'left'}}>
+          <div style={{fontSize: '8pt', color: 'black', textAlign: 'left'}}>
             <div>Tech Stack: Postgres, Cassandra, New Relic, Loader.io, NGINX,
             <i className="fab fa-docker fa-1x"></i>
             <i className="fab fa-aws fa-1x"></i>
