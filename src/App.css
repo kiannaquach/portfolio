@@ -278,13 +278,11 @@ hr {
 .header li {
   display: block;
   padding: 20px 20px;
-  /* border-right: 1px solid #f4f4f4; */
   text-decoration: none;
 }
 
 .header li:hover,
 .header .hamburger-btn:hover {
-  /* background-color: #f4f4f4; */
   cursor: pointer;
 }
 
